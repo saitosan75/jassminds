@@ -1,0 +1,21 @@
+/* MEDIA */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.site-identity {
+    img {
+        max-width: 25%;
+        height: auto;
+        padding: 3em 1em 1em 1em;
+    }
+}
+
+header {
+    background-image: url(../img/hero.png);
+}
+
+.hero {
+    background-image: url(../img/hero.png);
+}

@@ -1,0 +1,23 @@
+$type-base: 'Roboto', sans-serif;
+$type-heading: 'Inknut Antiqua', serif;
+$type-line-width: 38em;
+
+//TYPE COLORS
+$type-color-body: #B7B7B7;
+$type-color-heading: #E6E6E6;
+$type-color-subhead: #D67C7C;
+$type-color-nav: #9B9B9B;
+$type-color-day: #EFA86D;
+$type-color-date: #E30000;
+
+//BREAKPOONTS
+$breakpoint-small: 768px;
+$breakpoint-menium: 992px;
+$breakpoint-large: 1250px;
+
+@import "partials/toc";
+@import "partials/typography";
+//@import "partials/components";
+//@import "partials/layout";
+@import "partials/structure";
+@import "partials/media"; 

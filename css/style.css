@@ -1,0 +1,124 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #B7B7B7; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Inknut Antiqua", serif;
+  color: #E6E6E6;
+  margin: 0 0 0.5em 0; }
+
+/* Traditional typographic scale
+48, 36, 24, 21, 18, 16 */
+h1 {
+  font-size: 3em;
+  line-height: 1em; }
+
+/* 48 / 16 = 3em */
+h2 {
+  font-size: 2.25em;
+  line-height: 1.1em; }
+
+/* 36 / 16 = 2.25em */
+h3 {
+  font-size: 1.5em;
+  line-height: 1.2em; }
+
+/* 24 / 16 = 1.5em */
+h4 {
+  font-size: 1.3125em;
+  line-height: 1.3em; }
+
+/* 21 / 16 = 1.3125em */
+h5 {
+  font-size: 1.125em;
+  line-height: 1.4em; }
+
+/* 18 / 16 = 1.125em */
+h6 {
+  font-size: 1em;
+  line-height: 1.5em; }
+
+/* 16 / 16 = 1em */
+.centered {
+  text-align: center; }
+  .centered * {
+    margin-left: auto;
+    margin-right: auto; }
+
+/* head */
+.title {
+  position: absolute;
+  top: -9999px;
+  left: -9999px; }
+
+nav {
+  font-size: 1em; }
+
+/* hero */
+.hero {
+  padding: 3em 0; }
+  .hero h1 {
+    font-size: 4em;
+    font-weight: 900;
+    margin: 0; }
+  .hero h2 {
+    font-size: 1.75em;
+    color: #D67C7C;
+    font-weight: 400; }
+
+body {
+  background-color: black; }
+
+.site-header .site-navigation ul,
+.site-footer .site-navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  @media (max-width: 768px -1) {
+    .site-header .site-navigation ul,
+    .site-footer .site-navigation ul {
+      display: block; } }
+
+.site-header .site-navigation a,
+.site-footer .site-navigation a {
+  color: #9B9B9B;
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+  padding: 1.6em 0 .2em 0;
+  margin: 0 1.5em 1.2em 1.5em;
+  border-bottom: 2px solid rgba(255, 0, 0, 0); }
+  @media (max-width: 768px -1) {
+    .site-header .site-navigation a,
+    .site-footer .site-navigation a {
+      padding: 0.5em 1em; } }
+
+.site-header .site-navigation a:hover,
+.site-footer .site-navigation a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid red; }
+
+.site-header ul,
+.site-footer ul {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+/* MEDIA */
+img {
+  max-width: 100%;
+  height: auto; }
+
+.site-identity img {
+  max-width: 25%;
+  height: auto;
+  padding: 3em 1em 1em 1em; }
+
+header {
+  background-image: url(../img/hero.png); }
+
+.hero {
+  background-image: url(../img/hero.png); }
