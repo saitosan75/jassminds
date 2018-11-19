@@ -1,8 +1,107 @@
+.centered {
+    flex-grow: 0;
+    //width:50%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
 /* LAYOUT */
 
-*{box-sizing: border-box}
+* {box-sizing: border-box} 
 
 //SMALL SCREENS AND UP (MOBILE-FIRST)
 body {
-    font-size: 14px;
+    font-size: 87.5%; /* 14px */
+    margin: 0;
 }
+.container {
+    margin: 0 auto;
+    padding: 2% 4%;
+}
+
+//MEDIUM SCREENS (TABLET)
+@media (min-width: $breakpoint-small) {
+    body {
+        font-size: 100%; /*16px */
+    }
+}
+
+//LARGE SCREENS (NOTEBOOKS)
+@media (min-width: $breakpoint-medium) {
+
+    .container {
+        max-width: $breakpoint-medium - 50;
+        padding: 0 50px;
+    }
+}
+
+//EXTRA LARGE SCREENS (DESKTOP**)
+@media (min-width: $breakpoint-large) {
+    body {
+        font-size: 112.5%; /*18px */
+    }
+    
+    .container {
+        max-width: $breakpoint-large - 50;
+    }
+}
+
+/* GRID */
+
+$grid-column-gap: 2%;
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:-$grid-column-gap/2;
+    margin-right:-$grid-column-gap/2;
+    align-items: center;
+    // or flex-direction: column;
+    justify-content: center;
+    @media (max-width:$breakpoint-small - 1){
+        justify-content: flex-start;
+    }
+    &.swapped {
+        flex-direction: row-reverse;
+    } 
+}
+
+.row > .column {
+    flex-grow: 1;
+    margin: 0 $grid-column-gap/2 $grid-column-gap $grid-column-gap/2;
+    @media (max-width: $breakpoint-small - 1) {
+        flex-grow: 0;
+        flex-basis: $breakpoint-small;
+    }
+    &.one-half {
+        width: 50 - $grid-column-gap;
+    }
+
+    &.one-third{
+        width: 33.3333 - $grid-column-gap;
+    }
+
+    &.one-fourth {
+        width: 25 - $grid-column-gap;
+    }
+
+    @media (min-width: $breakpoint-small) {
+        &.centered {
+            flex-grow: 0;
+            //width:50%;
+            margin-right: 4%;
+            margin-left: 4%;
+        }
+    }
+}
+
+   
+
+//FOR DEMO PURPOSES
+.demo .column {
+    padding: 1em;
+    background: $column-color;
+    text-align: center;
+    //flex-grow: 0;
+}
+

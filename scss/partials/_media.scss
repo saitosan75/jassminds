@@ -5,17 +5,50 @@ img {
 }
 
 .site-identity {
-    img {
-        max-width: 25%;
-        height: auto;
-        padding: 3em 1em 1em 1em;
-    }
+    img{
+        @media (min-width: $breakpoint-small) {
+            max-width: 15%;
+            height: auto;
+            padding: 3em 1em 1em 1em;
+        }
+
+        @media (min-width: $breakpoint-medium) {
+            max-width: 20%;
+            height: auto;
+            padding: 3em 1em 1em 1em;
+        }
+
+        @media (min-width: $breakpoint-large) {
+            max-width: 25%;
+            height: auto;
+            padding: 3em 1em 1em 1em;
+        }
+    }  
 }
+
+
+// .site-identity {
+//     img {
+//         max-width: 25%;
+//         height: auto;
+//         padding: 3em 1em 1em 1em;
+//     }
+// }
 
 header {
     background-image: url(../img/hero.png);
+    background-repeat: no-repeat;
+    background-position: center 5em; 
+    background-size: 100%;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 30em;
+        right: 0;
+        bottom: -5em;
+        left: 0;
+        background-image: linear-gradient(to bottom,#00000000,#000000);
+    }
 }
 
-.hero {
-    background-image: url(../img/hero.png);
-}
