@@ -52,3 +52,16 @@ header {
     }
 }
 
+.contact {
+    width: 100%;
+    background-image: url(../img/contact.jpg);
+    background-size: cover;
+	background-attachment: fixed;
+    height: 500px;
+    margin: 0;
+    opacity: 0.5;
+    z-index: 1;
+    display: block;
+
+
+}
