@@ -242,9 +242,12 @@ body {
 .featured {
   margin-top: 10em; }
 
+<<<<<<< HEAD
 section {
   margin: 0 0 2em 0; }
 
+=======
+>>>>>>> 7537dd455207f4e4f44c6fba0343c2bd1e3da05c
 /* MEDIA */
 img {
   max-width: 100%;
@@ -284,6 +287,7 @@ header {
     background-image: -webkit-linear-gradient(top, #00000000, #000000);
     background-image: -o-linear-gradient(top, #00000000, #000000);
     background-image: linear-gradient(to bottom, #00000000, #000000); }
+<<<<<<< HEAD
 
 .contact {
   width: 100%;
@@ -295,3 +299,5 @@ header {
   opacity: 0.5;
   z-index: 1;
   display: block; }
+=======
+>>>>>>> 7537dd455207f4e4f44c6fba0343c2bd1e3da05c
