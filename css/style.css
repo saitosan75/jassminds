@@ -242,9 +242,24 @@ body {
 .featured {
   margin-top: 10em; }
 
+<<<<<<< HEAD
 section {
   margin: 0 0 2em 0; }
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+section {
+  margin: 0 0 2em 0; }
+
+=======
+>>>>>>> 7537dd455207f4e4f44c6fba0343c2bd1e3da05c
+=======
+section {
+  margin: 0 0 2em 0; }
+
+>>>>>>> 1af7981c9d9535552fa1a1e16bb483479d377de3
+>>>>>>> 6d796f5df940f4091a06915f8e26a6cc615ff6e9
 /* MEDIA */
 img {
   max-width: 100%;
@@ -284,6 +299,13 @@ header {
     background-image: -webkit-linear-gradient(top, #00000000, #000000);
     background-image: -o-linear-gradient(top, #00000000, #000000);
     background-image: linear-gradient(to bottom, #00000000, #000000); }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1af7981c9d9535552fa1a1e16bb483479d377de3
+>>>>>>> 6d796f5df940f4091a06915f8e26a6cc615ff6e9
 
 .contact {
   width: 100%;
@@ -295,3 +317,11 @@ header {
   opacity: 0.5;
   z-index: 1;
   display: block; }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7537dd455207f4e4f44c6fba0343c2bd1e3da05c
+=======
+>>>>>>> 1af7981c9d9535552fa1a1e16bb483479d377de3
+>>>>>>> 6d796f5df940f4091a06915f8e26a6cc615ff6e9
