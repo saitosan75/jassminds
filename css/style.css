@@ -243,11 +243,17 @@ body {
   margin-top: 10em; }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 section {
   margin: 0 0 2em 0; }
 
 =======
 >>>>>>> 7537dd455207f4e4f44c6fba0343c2bd1e3da05c
+=======
+section {
+  margin: 0 0 2em 0; }
+
+>>>>>>> 1af7981c9d9535552fa1a1e16bb483479d377de3
 /* MEDIA */
 img {
   max-width: 100%;
@@ -288,6 +294,9 @@ header {
     background-image: -o-linear-gradient(top, #00000000, #000000);
     background-image: linear-gradient(to bottom, #00000000, #000000); }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1af7981c9d9535552fa1a1e16bb483479d377de3
 
 .contact {
   width: 100%;
@@ -299,5 +308,8 @@ header {
   opacity: 0.5;
   z-index: 1;
   display: block; }
+<<<<<<< HEAD
 =======
 >>>>>>> 7537dd455207f4e4f44c6fba0343c2bd1e3da05c
+=======
+>>>>>>> 1af7981c9d9535552fa1a1e16bb483479d377de3
