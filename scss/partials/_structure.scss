@@ -5,9 +5,11 @@ body {
 }
 
 .site-header,
-.site-footer {
+.site-footer,
+.container {
 
-    .site-navigation {
+    .site-navigation,
+    .weekly-navigation {
         ul {
             display: flex;
             list-style: none;
@@ -49,4 +51,8 @@ body {
 
 .featured {
     margin-top: 10em;
+}
+
+section {
+    margin: 0 0 2em 0;
 }

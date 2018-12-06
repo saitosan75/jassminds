@@ -6,7 +6,7 @@ body {
 h1, h2, h3, h4, h5 ,h6 {
     font-family: $type-heading;
     color: $type-color-heading;
-    margin: 0 0 0.5em 0;
+    margin: 0 0 0em 0;
 }
 
 /* Traditional typographic scale
@@ -46,13 +46,35 @@ nav {
         font-size: 4em;
         font-weight: 900;
         margin-bottom: 0.4em;
-
-
     }
 
     h2 {
         font-size: 1.75em;
         color: $type-color-subhead;
         font-weight: 400;
+    }
+}
+
+.section-head {
+    font-size: 3em;
+    margin: 0 0 0.2em 0;
+}
+
+.subheadline {
+    font-size: 1.5em;
+    color: $type-color-subhead;
+    font-weight: normal;
+    margin: 0 0 2em 0;
+}
+
+h4 {
+    font-family: $type-base;
+    color: $type-color-day;
+    font-weight: bold;
+}
+
+.weekly-navigation {
+    li {
+        font-weight: light;
     }
 }
