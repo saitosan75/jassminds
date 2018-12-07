@@ -6,24 +6,27 @@ img {
 
 .site-identity {
     img{
-        @media (min-width: $breakpoint-small ) {
-            max-width: 15%;
-            height: auto;
-            padding: 3em 1em 1em 1em;
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+        margin: 3em 10% 1em 10%;
+        @media (min-width: $breakpoint-small) {
+            //max-width: 15%;
         }
 
         @media (min-width: $breakpoint-medium) {
-            max-width: 20%;
-            height: auto;
-            padding: 3em 1em 1em 1em;
+            //max-width: 20%;
         }
 
         @media (min-width: $breakpoint-large) {
-            max-width: 25%;
-            height: auto;
-            padding: 3em 1em 1em 1em;
+            //max-width: 25%;
         }
     }  
+}
+
+.site-identity, .site-navigation {
+    position: relative;
+    z-index: 100;
 }
 
 
@@ -40,25 +43,23 @@ header {
     background-repeat: no-repeat;
     background-position: center 5em; 
     background-size: 100%;
+    //background-color: yellow;
+    position: relative;
 
     &:before {
         content: '';
         position: absolute;
-        top: em;
+        // top: 30em;
+        height: 100%;
         right: 0;
-        bottom: -5em;
+        bottom: 0;
         left: 0;
-        background-image: linear-gradient(to bottom,#00000000,#000000);
+        background-image: linear-gradient(to bottom, #000000,#00000000,#00000000,#000000);
+        //box-shadow: inset 0 0 50em 0 #000000;
+        //border: solid red 1px;
     }
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 1af7981c9d9535552fa1a1e16bb483479d377de3
->>>>>>> 6d796f5df940f4091a06915f8e26a6cc615ff6e9
 .contact {
     width: 100%;
     background-image: url(../img/contact.jpg);
@@ -72,11 +73,3 @@ header {
 
 
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 7537dd455207f4e4f44c6fba0343c2bd1e3da05c
-=======
->>>>>>> 1af7981c9d9535552fa1a1e16bb483479d377de3
->>>>>>> 6d796f5df940f4091a06915f8e26a6cc615ff6e9

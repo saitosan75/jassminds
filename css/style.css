@@ -64,7 +64,10 @@ nav {
   .hero h2 {
     font-size: 1.75em;
     color: #D67C7C;
-    font-weight: 400; }
+    font-weight: 400;
+    margin-bottom: 0; }
+  .hero p {
+    max-width: 20em; }
 
 .section-head {
   font-size: 3em;
@@ -242,70 +245,41 @@ body {
 .featured {
   margin-top: 10em; }
 
-<<<<<<< HEAD
 section {
   margin: 0 0 2em 0; }
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-section {
-  margin: 0 0 2em 0; }
-
-=======
->>>>>>> 7537dd455207f4e4f44c6fba0343c2bd1e3da05c
-=======
-section {
-  margin: 0 0 2em 0; }
-
->>>>>>> 1af7981c9d9535552fa1a1e16bb483479d377de3
->>>>>>> 6d796f5df940f4091a06915f8e26a6cc615ff6e9
 /* MEDIA */
 img {
   max-width: 100%;
   height: auto; }
 
-@media (min-width: 768px) {
-  .site-identity img {
-    max-width: 15%;
-    height: auto;
-    padding: 3em 1em 1em 1em; } }
+.site-identity img {
+  width: 90%;
+  max-width: 300px;
+  height: auto;
+  margin: 3em 10% 1em 10%; }
 
-@media (min-width: 992px) {
-  .site-identity img {
-    max-width: 20%;
-    height: auto;
-    padding: 3em 1em 1em 1em; } }
-
-@media (min-width: 1250px) {
-  .site-identity img {
-    max-width: 25%;
-    height: auto;
-    padding: 3em 1em 1em 1em; } }
+.site-identity, .site-navigation {
+  position: relative;
+  z-index: 100; }
 
 header {
   background-image: url(../img/hero.png);
   background-repeat: no-repeat;
   background-position: center 5em;
-  background-size: 100%; }
+  background-size: 100%;
+  position: relative; }
   header:before {
     content: '';
     position: absolute;
-    top: em;
+    height: 100%;
     right: 0;
-    bottom: -5em;
+    bottom: 0;
     left: 0;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#00000000), to(#000000));
-    background-image: -webkit-linear-gradient(top, #00000000, #000000);
-    background-image: -o-linear-gradient(top, #00000000, #000000);
-    background-image: linear-gradient(to bottom, #00000000, #000000); }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 1af7981c9d9535552fa1a1e16bb483479d377de3
->>>>>>> 6d796f5df940f4091a06915f8e26a6cc615ff6e9
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(#00000000), color-stop(#00000000), to(#000000));
+    background-image: -webkit-linear-gradient(top, #000000, #00000000, #00000000, #000000);
+    background-image: -o-linear-gradient(top, #000000, #00000000, #00000000, #000000);
+    background-image: linear-gradient(to bottom, #000000, #00000000, #00000000, #000000); }
 
 .contact {
   width: 100%;
@@ -317,11 +291,3 @@ header {
   opacity: 0.5;
   z-index: 1;
   display: block; }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 7537dd455207f4e4f44c6fba0343c2bd1e3da05c
-=======
->>>>>>> 1af7981c9d9535552fa1a1e16bb483479d377de3
->>>>>>> 6d796f5df940f4091a06915f8e26a6cc615ff6e9
